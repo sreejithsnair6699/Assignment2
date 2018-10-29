@@ -58,7 +58,7 @@
         }
         switch (currentState) {
             case config.Scene.START:
-                currentScene = new scenes.Start();
+                currentScene = new scenes.LevelTwo();
                 break;
             case config.Scene.PLAY:
                 currentScene = new scenes.Play();
